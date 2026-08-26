@@ -29,15 +29,12 @@ En el panel de la derecha:
 14. Guardar como `<codigo pdb>_lig_prep.sdf` y `.mol2`
 #### Proteína
 ###### Preparar
-1. `Compute -> Prepare -> QuickPrep`, `OK` con las opciones por defecto
-2. En el panel de la derecha:
-	1. `Select -> Solvent`
-	2. `Delete`
-###### Guardar
-1. `Select -> Receptor`
-2. `File -> Save`
-3. Marcar `Only Selected`
-4. Guardar como `<codigo pdb>_recep_prep.mol2` y `.moe`
+1. Seleccionar `Forcefield AMBER EHT`
+2. `Compute -> Prepare -> QuickPrep`, `OK` con las opciones por defecto
+3. `Select -> Receptor`
+4. `File -> Save`
+5. Marcar `Only Selected`
+6. Guardar como `<codigo pdb>_recep_prep.mol2` y `.moe`
 ## GOLD
 ```
 hermes
@@ -46,7 +43,7 @@ hermes
 1. Abrir la proteína preparada `<codigo pdb>_recep_prep.mol2` y el ligando de referencia `<codigo pdb>_lig.sdf`
 2. `GOLD -> Setup and Run Docking`
 	1. En `Proteins`, seleccionar la proteína disponible
-	2. En `Define Binding Site`, seleccionar `One or more ligands` para utilizar las coordenadas del ligando de referencia para el bolsillo de 6 Å
+	2. En `Define Binding Site`, seleccionar `One or more ligands` para utilizar las coordenadas del ligando de referencia para el bolsillo de 10 Å
 	3. En `Select Ligands`:
 		1. Seleccionar el `.sdf` preparado. 
 		2. Indicar en `Reference ligand` el ligando de referencia
