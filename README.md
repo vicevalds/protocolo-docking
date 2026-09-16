@@ -43,7 +43,7 @@ hermes
 1. Abrir la proteína preparada `<codigo pdb>_recep_prep.mol2` y el ligando de referencia `<codigo pdb>_lig.sdf`
 2. `GOLD -> Setup and Run Docking`
 	1. En `Proteins`, seleccionar la proteína disponible
-	2. En `Define Binding Site`, seleccionar `One or more ligands` para utilizar las coordenadas del ligando de referencia para el bolsillo de 10 Å
+	2. En `Define Binding Site`, seleccionar `One or more ligands` para utilizar las coordenadas del ligando de referencia para el bolsillo de 6 Å
 	3. En `Select Ligands`:
 		1. Seleccionar el `.sdf` preparado. 
 		2. Indicar en `Reference ligand` el ligando de referencia
